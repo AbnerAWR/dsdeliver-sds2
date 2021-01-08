@@ -19,11 +19,7 @@ function Footer() {
                     <a href="https://www.instagram.com/abnerawr/?hl=pt-br" target="_new">
                         <IconsInstagram />
                     </a>
-              
                 </div>
-            </footer>
-            <footer className="footer-icons">
-                
             </footer>
         </div>
     )
