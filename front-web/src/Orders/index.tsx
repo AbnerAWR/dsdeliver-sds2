@@ -23,7 +23,6 @@ function Orders() {
         fetchProducts()
             .then(response => setProducts(response.data))
             .catch(error => console.log(error))
-                toast.warning('Erro ao listar produtos')
     }, []);
 
     const handleSelectProduct = (product: Product) => {
